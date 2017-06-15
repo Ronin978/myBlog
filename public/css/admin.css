@@ -1,0 +1,49 @@
+.myPaginate {
+	text-align: center;
+}
+
+#myContent {
+	padding: auto;
+	margin: auto;
+	max-width: 900px;
+}
+
+.myBtnGroup form {
+	display: inline;
+}
+
+.myImg {
+    background-size: cover;
+    float: left;
+    height: 200px;
+    overflow: hidden;
+
+}
+.myImg img {
+   
+    height: 100%;       
+}
+
+.popup {
+	height: 40px; 
+	cursor: pointer;
+}
+
+.popup:focus {
+	height: 400px;
+}
+
+#toTop {
+width:200px;
+border:1px solid #ccc;
+background:#f7f7f7;
+text-align:center;
+padding:5px;
+position:fixed;
+top:10px;
+left:10px;
+cursor:pointer;
+display:none;
+color:#333;
+font-family:verdana;
+}
